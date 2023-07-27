@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+}
+
+
+header{
+    background-color: #000027;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+}
+ li ion-icon{
+   height: 50px;
+   width: 50px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    padding-left:60px;
+    padding-right:60px;
+}
+
+
+/* Conteúdo Principal*/ 
+
+
+.container-fundo--img{
+    width: 100%;
+    height: 1100px;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-title{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.container-title h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    align-items: center;
+}
+
+.container-title p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container-ocean--video{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+video{
+    height:285px;
+    width:505px;
+    
+    border-radius: 30px;
+    box-shadow: 3px 3px 4px whitesmoke;
+}
+
+
+.container-about{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.container-about h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px  black;
+}
+.container-about p{
+    text-shadow: 2px 2px 4px black;
+    font-size: 18px;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;  
+}
+.container-img img{
+   width: 290px;
+   height: 250px; 
+   border-radius: 30px;
+   border: 2px solid #000027;
+}
+
+.titanic{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-dark{
+height: 580px;
+width: 100%;
+background-color: black;
+display:flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+
+
+
+.banner-title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.banner-title h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.banner-title p{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: red;
+}
+
+
+
+.banner-ticket{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 350px;
+    width: 600px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.banner-name--price h1{
+    font-size: 35px;
+    color: red;
+    padding-top: 20px;
+}
+
+
+.banner-valor--price{
+    font-size: 40px;
+    padding-top: 20px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.banner-cartoes img{
+    height: 50px;
+    width: 70px;
+}
+
+.banner-cartoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.cartao{
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+
+.button a{
+  background-color:blue;
+  text-decoration: none;
+  padding: 13px;
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.banner-descrition{
+    padding-top: 30px;
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
