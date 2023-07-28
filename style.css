@@ -29,6 +29,9 @@ header{
     display: flex;
     align-items: center;
 }
+.menu-opener{
+    color: white;
+}
 
 nav ul,
 nav li{
@@ -331,12 +334,18 @@ flex-direction: column;
     }
     .menu img{
         display: block;
+        
     }
     .menu{
         padding-left: 200px;
         display: flex;
         justify-content: center;
         align-items:center;
+    }
+
+    .menu-opener{
+        height: 50px;
+        width: 50px;
     }
 
     nav li{
