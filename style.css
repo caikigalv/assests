@@ -12,6 +12,14 @@ header{
     justify-content: center;
 }
 
+.logo{
+    display: none;
+}
+
+.menu img{
+    display: none;
+}
+
 .menu{
     display: flex;
     align-items: center;
@@ -244,6 +252,132 @@ flex-direction: column;
     font-weight: 600;
 }
 
+
+
+
+@media (min-width:450px) and (max-width:800px){
+ 
+    .container-img{
+        display:inline-flex;
+        justify-content: center;  
+        flex-wrap: wrap;
+    }
+
+    .container-img img{
+        width: 180px;
+        height: 180px; 
+        border-radius: 30px;
+        border: 2px solid #000027;
+     }
+
+
+     .container-fundo--img{
+        width: 100%;
+        height: 1200px;
+        background-image: url(image.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav li{
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+}
+
+@media (max-width:450px) { 
+ 
+    .container-img{
+        display:flex;
+        justify-content: center;  
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-img img{
+        margin-top: 60px;
+        width: 350px;
+        height: 220px; 
+        border-radius: 0px;
+        border: 2px solid #000027;
+     }
+
+     .container-fundo--img{
+        width: 100%;
+        height: 1900px;
+        background-image: url(image.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo {
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        color: white;
+    }
+    .logo ion-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .menu img{
+        display: block;
+    }
+    .menu{
+        padding-left: 200px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    nav li{
+        display: none;
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .container-ocean--video{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    video{
+        margin-bottom: 0px;
+        height:400px;
+        width:350px;
+        box-shadow:none;
+    }
+
+
+    .container-title{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+    }
+    .container-title h1{
+       font-size: 30px;
+        
+    }
+    .container-title p{
+        font-size: 14px;
+        
+    }
+    
+    .container-about{
+        padding-top: 0px;
+    }
+
+    .container-about h1 {
+        font-size: 23px;
+    }
+    .container-about p {
+        font-size: 13px;
+    }
+
+    
+}
 
 
 
