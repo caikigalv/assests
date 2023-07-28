@@ -3,8 +3,7 @@
     margin: 0;
     font-family: helvetica;
     box-sizing: border-box;
-    overflow-x:hidden;
-    
+    overflow-x:hidden;  
 }
 
 
@@ -239,7 +238,7 @@ flex-direction: column;
 }
 
 
-.button a{
+#button {
   background-color:blue;
   text-decoration: none;
   padding: 13px;
@@ -248,6 +247,7 @@ flex-direction: column;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
+  
 }
 
 
@@ -259,9 +259,7 @@ flex-direction: column;
     font-weight: 600;
 }
 
-.container {
-    overflow-x: hidden;
-  }
+
 
 
 
@@ -369,7 +367,7 @@ flex-direction: column;
 
 
     .container-title{
-        padding-top: 0px;
+        padding-top: 25px;
         padding-bottom: 0px;
         
     }
